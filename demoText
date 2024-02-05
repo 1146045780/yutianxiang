@@ -1,0 +1,9 @@
+ JSONArray itemArray = new JSONArray();
+            JSONObject json1 = new JSONObject();
+            json1.put("bus_account", cwSystem.getField4());
+            json1.put("interface_code", cwSystem.getField5());
+            JSONObject jsonbody1 = new JSONObject();
+            jsonbody1.put("busAccount", cwSystem.getField4());
+            jsonbody1.put("interfaceCode", "purchaseVoucher_receive");
+            jsonbody1.put("simpleFlag",1);
+            JSONObject jsonObject = new JSONObject();
